@@ -1,0 +1,27 @@
+.img-slide
+{
+    height: 300px;  
+}
+
+
+   .p-slide
+     {
+        
+	color:black;
+     }
+
+@media only screen and (min-width:768px)
+{ 
+    .img-slide
+      {
+          height: 520px;  
+      }
+
+    .p-slide
+	{
+	
+	color:black;
+	  
+	}
+
+}

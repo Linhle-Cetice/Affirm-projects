@@ -1,0 +1,55 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+a
+{
+    color: white;
+}
+a:hover
+{
+    color:pink
+}
+
+#intro {
+    background: url("../img/land28.jpg")no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+        
+}
+
+.navbar
+{
+    opacity: 0.9
+}
+
+.fixed-footer
+{
+    position: fixed;
+    opacity: 0.7;
+    height: 60px;
+    color:white;
+}
+
+
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
